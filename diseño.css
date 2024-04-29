@@ -1,0 +1,110 @@
+/* Configuración de desplazamiento suave para el scroll */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Estilos generales del cuerpo del documento */
+body {
+    font-size: 10px;
+    background: #e8dafd; /* Color de fondo */
+    padding-bottom: 50px; /* Espacio inferior */
+}
+
+/* Estilos para el título principal */
+h1 {
+    text-align: center; /* Centrado */
+}
+
+/* Estilos para el contenedor de preguntas */
+#juego {
+    max-width: 900px; /* Ancho máximo */
+    margin: auto; /* Centrado horizontal */
+}
+
+/* Estilos para cada pregunta individual */
+.contenedor-pregunta {
+    border: 1px solid #ccc; /* Borde gris */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 30px; /* Espaciado interno */
+    margin-bottom: 20px; /* Margen inferior */
+    background: #fff; /* Fondo blanco */
+}
+
+/* Estilos para las etiquetas de opción */
+label {
+    display: flex; /* Distribución en línea */
+    font-size: 22px; /* Tamaño de fuente */
+    margin-bottom: 10px; /* Margen inferior */
+    cursor: pointer; /* Cursor al señalar */
+}
+
+/* Estilos para los botones de opción */
+input {
+    display: inline-block; /* Elemento en línea */
+    width: 25px; /* Ancho */
+    height: 25px; /* Altura */
+    margin-right: 10px; /* Margen derecho */
+}
+
+/* Estilos para las respuestas correctas */
+.correcta {
+    background-color: #a8f6eb; /* Fondo verde claro */
+}
+
+/* Estilos para las respuestas incorrectas */
+.incorrecta {
+    background-color: #ff6666; /* Fondo rojo claro */
+}
+
+/* Estilos para el indicador de respuesta correcta */
+.acierto {
+    font-size: 10px; /* Tamaño de fuente */
+    background-color: yellowgreen; /* Fondo verde amarillento */
+    width: 20px; /* Ancho */
+    height: 20px; /* Altura */
+    border-radius: 30%; /* Bordes redondeados */
+    display: flex; /* Distribución en línea */
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Alineación horizontal */
+    border: 2px solid #000; /* Borde negro */
+    margin-left: 10px; /* Margen izquierdo */
+}
+
+/* Estilos para el indicador de respuesta incorrecta */
+.no-acierto {
+    font-size: 10px; /* Tamaño de fuente */
+    background-color: darkred; /* Fondo rojo oscuro */
+    width: 20px; /* Ancho */
+    height: 20px; /* Altura */
+    border-radius: 30%; /* Bordes redondeados */
+    display: flex; /* Distribución en línea */
+    align-items: center; /* Alineación vertical */
+    justify-content: center; /* Alineación horizontal */
+    border: 2px solid #000; /* Borde negro */
+    margin-left: 10px; /* Margen izquierdo */
+}
+
+/* Estilos para los botones */
+button {
+    width: fit-content; /* Ancho ajustado al contenido */
+    display: inline-block; /* Elemento en línea */
+    margin-right: 10px; /* Margen derecho */
+    border: none; /* Sin borde */
+    background: #000; /* Fondo negro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 20px; /* Relleno */
+    border-radius: 30px; /* Bordes redondeados */
+    font-size: 20px; /* Tamaño de fuente */
+    cursor: pointer; /* Cursor al señalar */
+}
+
+/* Estilos para el resultado */
+.resultado {
+    text-align: center; /* Centrado del texto */
+}
+
+/* Estilos para el contenedor de los botones */
+#botones {
+    display: flex; /* Distribución en línea */
+    justify-content: center; /* Justificación central */
+}
